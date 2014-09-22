@@ -131,6 +131,7 @@ module Bandsintown
         artist.mbid = json_hash['mbid']
         artist.bandsintown_url = json_hash['url']
         artist.upcoming_events_count = json_hash['upcoming_events_count']
+        artist.facebook_tour_dates_url = json_hash['facebook_tour_dates_url']
       end
     end
     
